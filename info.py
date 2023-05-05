@@ -33,7 +33,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://Hemanthss:Hemanthss@cluster0.9kppka9.mongodb.net/?retryWrites=true&w=majority"
-DATABASE_NAME = "cluster0"
+DATABASE_NAME = "Cluster0"
 COLLECTION_NAME = "Telegram_files"
 
 # Others
