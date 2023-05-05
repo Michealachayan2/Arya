@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = "Media_search"
 API_ID = int(6129258)
 API_HASH = "9e4430929d7757512f864d160dac0a98"
-BOT_TOKEN = "5030500439:AAETW6k0E0oCf0NZ0PIZUOb8bFUT1n6umr4"
+BOT_TOKEN = "6154665809:AAFy7zYypZL4ImXvBv99uq9C8PZeh2iPhd8"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,7 +32,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = "mongodb+srv://Hemanth:Hemanth@cluster0.uzzh3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://Hemanthss:Hemanthss@cluster0.9kppka9.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = "cluster0"
 COLLECTION_NAME = "Telegram_files"
 
