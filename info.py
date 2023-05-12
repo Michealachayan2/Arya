@@ -14,12 +14,12 @@ def is_enabled(value, default):
 SESSION = "Media_search"
 API_ID = int(6129258)
 API_HASH = "9e4430929d7757512f864d160dac0a98"
-BOT_TOKEN = "6154665809:AAFy7zYypZL4ImXvBv99uq9C8PZeh2iPhd8"
+BOT_TOKEN = "6194181111:AAGLrQujEMCpymWJrD-9Iw1n4-UmxL2A1HA"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = True 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/286801e61b556c4be376a.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/bde72117b16be9b193985.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5674020159').split()]
@@ -32,7 +32,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = "mongodb+srv://Hemanthss:Hemanthss@cluster0.9kppka9.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://Hemanthss:Hemanthss@cluster0.mnhnelh.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = "Cluster0"
 COLLECTION_NAME = "Telegram_files"
 
