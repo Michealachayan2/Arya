@@ -45,7 +45,7 @@ JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 DELETE_TIMEOUT = int(environ.get('DELETE_TIMEOUT', 2*60*60)) # 2 hours in seconds
 
 # Others
-DEL_TIME = 300        #seconds
+DEL_TIME = 120        #seconds
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001792180012'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Filmcornerofficialgroup')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
