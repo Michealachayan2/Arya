@@ -729,7 +729,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         kkpp = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     #Sleep and delete bot messages
-    await asyncio.sleep(DEL_TIME )
+    await asyncio.sleep(DEL_TIME)
     await kkpp.delete()
     
     if spoll:
