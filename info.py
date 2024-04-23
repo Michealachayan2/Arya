@@ -32,8 +32,7 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = "mongodb+srv://hemanthsskerala2004:Hemanthss@cluster0.upkokix.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-"
+DATABASE_URI = "mongodb+srv://hemanthsskerala2004:Hemanthss@cluster0.upkokix.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DATABASE_NAME = "Cluster0"
 COLLECTION_NAME = "Telegram_files"
 # FSUB
